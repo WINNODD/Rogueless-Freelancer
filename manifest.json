@@ -112,13 +112,37 @@
             "tooltip": "成员关仅有一名目标。",
             "group": "Target目标",
             "type": "select",
-            "contentFolders": ["Target/OneMildTargets"]
+            "contentFolders": ["Target/1"]
         }, {
-            "name": "满目标",
+            "name": "两目标",
+            "tooltip": "成员关仅有一名目标。",
+            "group": "Target目标",
+            "type": "select",
+            "contentFolders": ["Target/2"]
+        }, {
+            "name": "三目标",
+            "tooltip": "成员关仅有一名目标。",
+            "group": "Target目标",
+            "type": "select",
+            "contentFolders": ["Target/3"]
+        }, {
+            "name": "四目标",
+            "tooltip": "成员关仅有一名目标。",
+            "group": "Target目标",
+            "type": "select",
+            "contentFolders": ["Target/4"]
+        }, {
+            "name": "五目标",
             "tooltip": "成员关目标数量改成5个（最多了）。",
             "group": "Target目标",
             "type": "select",
-            "contentFolders": ["Target/MaxMildTargets"]
+            "contentFolders": ["Target/5"]
+        }, {
+            "name": "十目标",
+            "tooltip": "成员关目标数量改成5个（最多了）。",
+            "group": "Target目标",
+            "type": "select",
+            "contentFolders": ["Target/10"]
         }
     ]
 }
