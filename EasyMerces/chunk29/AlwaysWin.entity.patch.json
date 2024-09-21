@@ -1,0 +1,53 @@
+{
+    "tempHash": "006A38F41E008728",
+    "tbluHash": "00F37F3444CE455B",
+    "patch": [{
+            "SubEntityOperation": ["993571b2bb0a904", {
+                    "RemoveEventConnection": ["Out1", "Rand", "442e2a8f6f290b2e"]
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["993571b2bb0a904", {
+                    "AddEventConnection": ["Out1", "Rand", "fcd604954b9892c1"]
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["993571b2bb0a904", {
+                    "RemoveEventConnection": ["Out3", "Rand", "97379be74d3e4653"]
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["993571b2bb0a904", {
+                    "AddEventConnection": ["Out3", "Rand", "fcd604954b9892c1"]
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["993571b2bb0a904", {
+                    "RemoveEventConnection": ["Out4", "Rand", "ce1a20547232ac7b"]
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["993571b2bb0a904", {
+                    "AddEventConnection": ["Out4", "Rand", "fcd604954b9892c1"]
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["fcd604954b9892c1", {
+                    "SetPropertyValue": {
+                        "property_name": "m_nMin",
+                        "value": 114514
+                    }
+                }
+            ]
+        }, {
+            "SubEntityOperation": ["fcd604954b9892c1", {
+                    "SetPropertyValue": {
+                        "property_name": "m_nMax",
+                        "value": 114514
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

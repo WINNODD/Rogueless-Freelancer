@@ -1,0 +1,64 @@
+{
+    "tempHash": "00F062E112B958C7",
+    "tbluHash": "009731DED0218A65",
+    "patch": [{
+            "SubEntityOperation": ["a99525ba69c31a9d", {
+                    "AddInputCopyConnection": ["SetIActor", "IActor", "feed83262d1a9671"]
+                }
+            ]
+        }, {
+            "AddEntity": ["feed7851c908145f", {
+                    "parent": "a99525ba69c31a9d",
+                    "name": "RepositoryItemEvent 4 Fake",
+                    "factory": "[assembly:/templates/online/contractstemplates.template?/repositoryitemevent.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/templates/online/contractstemplates.template?/repositoryitemevent.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_MetricsValue": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": ["feed6ae6096aec7b"]
+                        },
+                        "Name": {
+                            "type": "ZString",
+                            "value": "AddSuspectGlow"
+                        }
+                    }
+                }
+            ]
+        }, {
+            "AddEntity": ["feed6ae6096aec7b", {
+                    "parent": "a99525ba69c31a9d",
+                    "name": "MetricValue_RepositoryID_03_Fake",
+                    "factory": "[modules:/zmetricvalue_zrepositoryid.class].pc_entitytype",
+                    "blueprint": "[modules:/zmetricvalue_zrepositoryid.class].pc_entityblueprint",
+                    "properties": {
+                        "m_value": {
+                            "type": "ZGuid",
+                            "value": "8e0e9d31-7f9e-44e6-819c-4ef495150222"
+                        },
+                        "m_name": {
+                            "type": "ZString",
+                            "value": "Event_ContactID"
+                        }
+                    }
+                }
+            ]
+        }, {
+            "AddEntity": ["feed83262d1a9671", {
+                    "parent": "a99525ba69c31a9d",
+                    "name": "ActorData 2 Fake",
+                    "factory": "[modules:/zactordataentity.class].pc_entitytype",
+                    "blueprint": "[modules:/zactordataentity.class].pc_entityblueprint",
+                    "events": {
+                        "RepositoryId": {
+                            "SetValue": ["feed6ae6096aec7b"]
+                        },
+                        "DataEnd": {
+                            "Send": ["feed7851c908145f"]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

@@ -1,0 +1,16 @@
+{
+    "tempHash": "00A9B93A825F5BDC",
+    "tbluHash": "005BA5CA6AC00627",
+    "patch": [{
+            "SubEntityOperation": ["b9b3c3f54e904c3b", {
+                    "AddProperty": ["m_eEvaluation", {
+                            "type": "ZValueBool_Operation_Signal.EEvaluationType",
+                            "value": "NOT_ALL"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

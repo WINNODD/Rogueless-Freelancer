@@ -1,0 +1,15 @@
+{
+    "tempHash": "000AF2B95F90F1ED",
+    "tbluHash": "0019B7692029FBF2",
+    "patch": [{
+            "SubEntityOperation": ["51de6463760f8b53", {
+                    "SetPropertyValue": {
+                        "property_name": "Name",
+                        "value": "AddSuspectGlowNah"
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}
