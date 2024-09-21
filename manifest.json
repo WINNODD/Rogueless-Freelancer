@@ -1,10 +1,11 @@
 {
     "id": "WINNODD.EGCheats_CN",
     "name": "自由职业者修改器",
-    "description": "有疑问请务必将鼠标停留至选项上查看功能详情，部分修改需要开启新战役才会应用。",
+    "updateCheck": "https://raw.githubusercontent.com/WINNODD/updater-comfy-safehouse-expansion/refs/heads/main/updater-rogueless-freelancer.json",
+	"description": "有疑问请务必将鼠标停留至选项上查看功能详情，部分修改需要开启新战役才会应用。",
     "authors": ["WINNODD"],
     "frameworkVersion": "2.0.0",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "options": [{
             "name": "随时升级",
             "tooltip": "武器未收集齐时可以升级声望等级，但如果你已经收集齐了所有则不能升级，所以先去任务里丢一把吧",
