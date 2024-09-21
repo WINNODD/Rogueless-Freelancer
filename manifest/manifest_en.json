@@ -1,0 +1,124 @@
+{
+    "id": "WINNODD.EGCheats_EN",
+    "name": "Rogueless Freelancer",
+    "description": "Please hover your mouse on the options for details, Some changes will only apply when a new campaign starts.",
+    "authors": ["WINNODD"],
+    "frameworkVersion": "2.0.0",
+    "version": "1.0.0",
+    "options": [{
+            "name": "Levelup Anytime",
+            "tooltip": "You can advance your prestige level when the guns are not fully collected, but if you already collect them all you can't level up sorry. Get rid of one of them in mission lmao",
+            "group": "Prestige",
+            "type": "checkbox",
+            "contentFolders": ["LevelupAnytime"]
+        }, {
+            "name": "Marked Leader",
+            "tooltip": "When in a showdown level, only the real target is marked in instinct",
+            "group": "Leader",
+            "type": "checkbox",
+            "contentFolders": ["MarkedLeader"]
+        }, {
+            "name": "Easy Merces",
+            "tooltip": "You earn free 114,514 merces everytime you check the stocks. Reach mastery 16 first if you don't know what it is. Get your free initial merces in the infirmary if you're completely broke.",
+            "group": "Merces",
+            "type": "checkbox",
+            "contentFolders": ["EasyMerces"]
+        }, {
+            "name": "Persistent Items",
+            "tooltip": "If you fail or abort the current campaign or switch to hardcore mode, you can still keep your freelancer items. However, leaving them in missions or advancing prestige levels still cause intended item removal",
+            "group": "Gear",
+            "type": "checkbox",
+            "contentFolders": ["PersistentGear"]
+        }, {
+            "name": "Saved Progression",
+            "tooltip": "Your campaign progression won't be reset if you failed. The only way to reset is to manually abort or complete",
+            "group": "Progression",
+            "type": "checkbox",
+            "contentFolders": ["NeverReset"]
+        }, {
+            "name": "Vanilla",
+            "tooltip": "No change at all",
+            "group": "Territory",
+            "type": "select",
+            "enabledByDefault": true,
+        }, {
+            "name": "Single Territory",
+            "tooltip": "For each campaign, you only need to clear one single territory, which is the final showdown",
+            "group": "Territory",
+            "type": "select",
+            "contentFolders": ["ZeroMild"]
+        }, {
+            "name": "Full Territories",
+            "tooltip": "For each campaign, you need to clear 19 territories, which are all available maps for Freelancer",
+            "group": "Territory",
+            "type": "select",
+            "contentFolders": ["MaxMild"]
+        }, {
+            "name": "Vanilla",
+            "tooltip": "No change at all",
+            "group": "Alerted",
+            "type": "select",
+            "enabledByDefault": true,
+        }, {
+            "name": "Zero Alerted Territories",
+            "tooltip": "No territories are alerted when a campaign starts.",
+            "group": "Alerted",
+            "type": "select",
+            "contentFolders": ["ZeroAlerted"]
+        }, {
+            "name": "Regular Alerted Territories",
+            "tooltip": "The number of alerted territories in hardcore mode has been reduced to the same level as regular mode.",
+            "group": "Alerted",
+            "type": "select",
+            "contentFolders": ["RegularAlerted"]
+        }, {
+            "name": "Full Alerted Territories",
+            "tooltip": "All territories are alerted when a campaign start",
+            "group": "Alerted",
+            "type": "select",
+            "contentFolders": ["AllAlerted"]
+        }, {
+            "name": "Never Alert Territories",
+            "tooltip": "Failing an unalerted territory won't alert any other territories",
+            "group": "Alerted",
+            "type": "checkbox",
+            "contentFolders": ["NeverAlert"]
+        }, {
+            "name": "Full Safes",
+            "tooltip": "Spawn as many merces safes as possible.",
+            "group": "Safe",
+            "type": "checkbox",
+            "contentFolders": ["MaxSafes"]
+        }, {
+            "name": "Full Crates",
+            "tooltip": "Spawn as many supply crates as possible.",
+            "group": "Stashe",
+            "type": "checkbox",
+            "contentFolders": ["MaxStashes"]
+        }, {
+            "name": "Full Suppliers",
+            "tooltip": "Spawn as many suppliers as possible.",
+            "group": "Supplier",
+            "type": "checkbox",
+            "contentFolders": ["MaxSuppliers"]
+        }, {
+            "name": "Vanilla",
+            "tooltip": "No changes at all",
+            "group": "Target",
+            "type": "select",
+            "enabledByDefault": true,
+        }, {
+            "name": "Single Target",
+            "tooltip": "There'll only be one target in the territory takedown missions",
+            "group": "Target",
+            "type": "select",
+            "contentFolders": ["OneMildTargets"]
+        }, {
+            "name": "Full Targets",
+            "tooltip": "There'll be five targets in the territory takedown missions",
+            "group": "Target",
+            "type": "select",
+            "contentFolders": ["MaxMildTargets"]
+        }
+    ]
+}
