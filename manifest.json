@@ -46,13 +46,13 @@
             "tooltip": "每个战役仅需要前往一个地点，也就是仅有首领关卡。",
             "group": "Territory战役地点",
             "type": "select",
-            "contentFolders": ["ZeroMild"]
+            "contentFolders": ["Territory/ZeroMild"]
         }, {
             "name": "满地点",
             "tooltip": "每个战役需要前往所有19个地点。",
             "group": "Territory战役地点",
             "type": "select",
-            "contentFolders": ["MaxMild"]
+            "contentFolders": ["Territory/MaxMild"]
         }, {
             "name": "不修改",
             "tooltip": "不对警戒地点数量和机制作修改。",
@@ -64,25 +64,25 @@
             "tooltip": "所有地点开局都不会警戒。",
             "group": "Alerted警戒地点",
             "type": "select",
-            "contentFolders": ["ZeroAlerted"]
+            "contentFolders": ["Alerted/ZeroAlerted"]
         }, {
             "name": "全警戒",
             "tooltip": "所有地点开局都会警戒。",
             "group": "Alerted警戒地点",
             "type": "select",
-            "contentFolders": ["AllAlerted"]
+            "contentFolders": ["Alerted/AllAlerted"]
         }, {
             "name": "一般警戒",
             "tooltip": "硬核模式的警戒地点数量将调整到一般模式的水平。",
             "group": "Alerted警戒地点",
             "type": "select",
-            "contentFolders": ["RegularAlerted"]
+            "contentFolders": ["Alerted/RegularAlerted"]
         }, {
             "name": "不警戒",
             "tooltip": "任务失败不触发其它地点警戒。",
             "group": "Alerted警戒地点",
             "type": "checkbox",
-            "contentFolders": ["NeverAlert"]
+            "contentFolders": ["Alerted/NeverAlert"]
         }, {
             "name": "满保险箱",
             "tooltip": "地图里保险箱有多少生成多少。",
@@ -112,13 +112,13 @@
             "tooltip": "成员关仅有一名目标。",
             "group": "Target目标",
             "type": "select",
-            "contentFolders": ["OneMildTargets"]
+            "contentFolders": ["Target/OneMildTargets"]
         }, {
             "name": "满目标",
             "tooltip": "成员关目标数量改成5个（最多了）。",
             "group": "Target目标",
             "type": "select",
-            "contentFolders": ["MaxMildTargets"]
+            "contentFolders": ["Target/MaxMildTargets"]
         }
     ]
 }
