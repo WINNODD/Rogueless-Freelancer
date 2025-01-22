@@ -5,7 +5,7 @@
             "SubEntityOperation": ["4d0d069d5f65d7b2", {
                     "SetPropertyValue": {
                         "property_name": "m_nValue",
-                        "value": 50
+                        "value": 10
                     }
                 }
             ]
@@ -13,7 +13,7 @@
             "SubEntityOperation": ["2165b98ad88fe481", {
                     "SetPropertyValue": {
                         "property_name": "m_nValue",
-                        "value": 50
+                        "value": 10
                     }
                 }
             ]
