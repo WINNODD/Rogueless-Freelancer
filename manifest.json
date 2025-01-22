@@ -21,13 +21,13 @@
         }, {
             "name": "Nah",
             "tooltip": "Level up your mastery if you don't know what this is\n不知道这是什么请推精通",
-            "group": "Always earn a million merces when invest in stocks\n每次炒股必赚十万",
+            "group": "Always earn a million when invest in stocks\n每次炒股必赚十万",
             "type": "select",
             "enabledByDefault": true
         }, {
             "name": "Ok",
             "tooltip": "Level up your mastery if you don't know what this is\n不知道这是什么请推精通",
-            "group": "Always earn a million merces when invest in stocks\n每次炒股必赚十万",
+            "group": "Always earn a million when invest in stocks\n每次炒股必赚十万",
             "type": "select",
             "contentFolders": ["EasyMerces"]
         }, {
@@ -103,10 +103,14 @@
             "type": "checkbox",
             "contentFolders": ["MaxStashes"]
         }, {
-            "name": "满补给商",
-            "tooltip": "地图里补给商有多少生成多少。",
-            "group": "Supplier补给商",
-            "type": "checkbox",
+            "name": "1",
+            "group": "Amount of suppliers\n补给商数量",
+            "type": "select",
+            "enabledByDefault": true
+        }, {
+            "name": "2",
+            "group": "Amount of suppliers\n补给商数量",
+            "type": "select",
             "contentFolders": ["MaxSuppliers"]
         }, {
             "name": "Default\n默认数量",
