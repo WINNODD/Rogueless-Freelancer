@@ -31,6 +31,21 @@
 					]
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"8459be402630aac0",
+				{
+					"AddEventConnection": [
+						"PollFalse",
+						"SetValue",
+						{
+							"ref": "218f6a3bf065008e",
+							"value": { "type": "int32", "value": 10 }
+						}
+					]
+				}
+			]
 		}
 	],
 	"patchVersion": 6

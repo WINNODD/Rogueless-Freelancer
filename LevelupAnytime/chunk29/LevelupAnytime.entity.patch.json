@@ -1,16 +1,63 @@
 {
-    "tempHash": "00A9B93A825F5BDC",
-    "tbluHash": "005BA5CA6AC00627",
-    "patch": [{
-            "SubEntityOperation": ["b9b3c3f54e904c3b", {
-                    "AddProperty": ["m_eEvaluation", {
-                            "type": "ZValueBool_Operation_Signal.EEvaluationType",
-                            "value": "NOT_ALL"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 92.21514767695776
+							},
+							"position": {
+								"x": 41.20574951171875,
+								"y": -155.69740295410156,
+								"z": -19.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"PatchArrayPropertyValue": [
+						"canPrestige",
+						[{ "RemoveItemByValue": "b9b3c3f54e904c3b" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"EffectsStart",
+						"SetFalse"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"AddEventConnection": [
+						"EffectsStart",
+						"In",
+						"0ceaa7879182287e"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }
