@@ -19,10 +19,16 @@
             "type": "checkbox",
             "contentFolders": ["MarkedLeader"]
         }, {
-            "name": "炒股必赢",
-            "tooltip": "炒股一次给114514，不知道炒股是什么请推精通解锁金库。要是已经破产的话可以去医务室领免费的启动金",
-            "group": "Merces钱",
-            "type": "checkbox",
+            "name": "Nah",
+            "tooltip": "Level up your mastery if you don't know what this is\n不知道这是什么请推精通",
+            "group": "Always earn a million merces when invest in stocks\n每次炒股必赚十万",
+            "type": "select",
+            "enabledByDefault": true
+        }, {
+            "name": "Ok",
+            "tooltip": "Level up your mastery if you don't know what this is\n不知道这是什么请推精通",
+            "group": "Always earn a million merces when invest in stocks\n每次炒股必赚十万",
+            "type": "select",
             "contentFolders": ["EasyMerces"]
         }, {
             "name": "道具不重置",
@@ -104,32 +110,32 @@
             "contentFolders": ["MaxSuppliers"]
         }, {
             "name": "Default\n默认数量",
-            "group": "Amount of targets in Territory Takedown.\n区域清剿的目标数量。",
+            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "enabledByDefault": true
         }, {
             "name": "1",
-            "group": "Amount of targets in Territory Takedown.\n区域清剿的目标数量。",
+            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "contentFolders": ["Target/1"]
         }, {
             "name": "2",
-            "group": "Amount of targets in Territory Takedown.\n区域清剿的目标数量。",
+            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "contentFolders": ["Target/2"]
         }, {
             "name": "3",
-            "group": "Amount of targets in Territory Takedown.\n区域清剿的目标数量。",
+            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "contentFolders": ["Target/3"]
         }, {
             "name": "4",
-            "group": "Amount of targets in Territory Takedown.\n区域清剿的目标数量。",
+            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "contentFolders": ["Target/4"]
         }, {
             "name": "5",
-            "group": "Amount of targets in Territory Takedown.\n区域清剿的目标数量。",
+            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "contentFolders": ["Target/5"]
         }
