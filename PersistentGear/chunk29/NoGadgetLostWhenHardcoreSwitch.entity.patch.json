@@ -1,0 +1,29 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"3a92ebeb469fce93",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"disableHardcore",
+						"In"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3a92ebeb469fce93",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"enableHardcore",
+						"In"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

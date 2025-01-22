@@ -1,0 +1,12 @@
+{
+    "tempHash": "00A9B93A825F5BDC",
+    "tbluHash": "005BA5CA6AC00627",
+    "patch": [{
+            "SubEntityOperation": ["fc37e5f52414557c", {
+                    "RemoveAllEventConnectionsForTrigger": ["AbortCampaign", "In"]
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}
