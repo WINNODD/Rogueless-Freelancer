@@ -50,24 +50,6 @@
             "contentFolders": ["NeverReset"]
         }, {
             "name": "不修改",
-            "tooltip": "不对战役地点数量作修改。",
-            "group": "Territory战役地点",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "单地点",
-            "tooltip": "每个战役仅需要前往一个地点，也就是仅有首领关卡。",
-            "group": "Territory战役地点",
-            "type": "select",
-            "contentFolders": ["Territory/ZeroMild"]
-        }, {
-            "name": "满地点",
-            "tooltip": "每个战役需要前往所有19个地点。",
-            "group": "Territory战役地点",
-            "type": "select",
-            "contentFolders": ["Territory/MaxMild"]
-        }, {
-            "name": "不修改",
             "tooltip": "不对警戒地点数量和机制作修改。",
             "group": "Alerted警戒地点",
             "type": "select",
@@ -90,6 +72,106 @@
             "group": "Alerted警戒地点",
             "type": "select",
             "contentFolders": ["Alerted/RegularAlerted"]
+        }, {
+            "name": "Default\n默认数量",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "enabledByDefault": true
+        }, {
+            "name": "1",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/1"]
+        }, {
+            "name": "2",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/2"]
+        }, {
+            "name": "3",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/3"]
+        }, {
+            "name": "4",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/4"]
+        }, {
+            "name": "5",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/5"]
+        }, {
+            "name": "6",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/6"]
+        }, {
+            "name": "7",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/7"]
+        }, {
+            "name": "8",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/8"]
+        }, {
+            "name": "9",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/9"]
+        }, {
+            "name": "10",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/10"]
+        }, {
+            "name": "11",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/11"]
+        }, {
+            "name": "12",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/12"]
+        }, {
+            "name": "13",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/13"]
+        }, {
+            "name": "14",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/14"]
+        }, {
+            "name": "15",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/15"]
+        }, {
+            "name": "16",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/16"]
+        }, {
+            "name": "17",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/17"]
+        }, {
+            "name": "18",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/18"]
+        }, {
+            "name": "19",
+            "group": "Amount of territories\n地点数量",
+            "type": "select",
+            "contentFolders": ["Territory/19"]
         }, {
             "name": "Default\n默认数量",
             "group": "Amount of safes\n保险箱数量",
