@@ -326,6 +326,21 @@
             "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
             "type": "select",
             "contentFolders": ["Target/5"]
+        }, {
+            "name": "Default\n默认数量",
+            "group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
+            "type": "select",
+            "enabledByDefault": true
+        }, {
+            "name": "1",
+            "group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
+            "type": "select",
+            "contentFolders": ["Suspect/1"]
+        }, {
+            "name": "12",
+            "group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
+            "type": "select",
+            "contentFolders": ["Suspect/12"]
         }
     ]
 }

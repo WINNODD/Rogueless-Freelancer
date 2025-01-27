@@ -1,0 +1,337 @@
+{
+	"tempHash": "002BD2CCF60EA7BE",
+	"tbluHash": "007E3D3A926E507F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c61bbb057d035bd5",
+				{
+					"RemoveEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "b142448c6295dd83",
+							"value": { "type": "int32", "value": 1 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c61bbb057d035bd5",
+				{
+					"AddEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "b142448c6295dd83",
+							"value": { "type": "int32", "value": 3 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c61bbb057d035bd5",
+				{
+					"RemoveEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "05379db335f3dca1",
+							"value": { "type": "int32", "value": 2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c61bbb057d035bd5",
+				{
+					"AddEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "05379db335f3dca1",
+							"value": { "type": "int32", "value": 3 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c61bbb057d035bd5",
+				{
+					"RemoveEventConnection": [
+						"Value 3",
+						"SetValue",
+						{
+							"ref": "3780d249d4a3c4f5",
+							"value": { "type": "int32", "value": 2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c61bbb057d035bd5",
+				{
+					"AddEventConnection": [
+						"Value 3",
+						"SetValue",
+						{
+							"ref": "3780d249d4a3c4f5",
+							"value": { "type": "int32", "value": 3 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bcc0490814924f5",
+				{
+					"RemoveEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "f7e6d740a6b1182f",
+							"value": { "type": "int32", "value": 9 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bcc0490814924f5",
+				{
+					"AddEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "f7e6d740a6b1182f",
+							"value": { "type": "int32", "value": 12 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bcc0490814924f5",
+				{
+					"RemoveEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "c3e752e0f5217361",
+							"value": { "type": "int32", "value": 9 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bcc0490814924f5",
+				{
+					"AddEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "c3e752e0f5217361",
+							"value": { "type": "int32", "value": 12 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"RemoveEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "057e3c94852b49b6",
+							"value": { "type": "int32", "value": 4 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"AddEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "057e3c94852b49b6",
+							"value": { "type": "int32", "value": 12 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"RemoveEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "a74ee83118bbdf32",
+							"value": { "type": "int32", "value": 6 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"AddEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "a74ee83118bbdf32",
+							"value": { "type": "int32", "value": 12 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"RemoveEventConnection": [
+						"Value 3",
+						"SetValue",
+						{
+							"ref": "67910923543f83d5",
+							"value": { "type": "int32", "value": 6 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"AddEventConnection": [
+						"Value 3",
+						"SetValue",
+						{
+							"ref": "67910923543f83d5",
+							"value": { "type": "int32", "value": 12 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"RemoveEventConnection": [
+						"Value 4",
+						"SetValue",
+						{
+							"ref": "c93471bc516ba903",
+							"value": { "type": "int32", "value": 9 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1135b9a5a7befd74",
+				{
+					"AddEventConnection": [
+						"Value 4",
+						"SetValue",
+						{
+							"ref": "c93471bc516ba903",
+							"value": { "type": "int32", "value": 12 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c8be8cc21d0fa32",
+				{
+					"RemoveEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "e09fcfc332adedbb",
+							"value": { "type": "int32", "value": 2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c8be8cc21d0fa32",
+				{
+					"AddEventConnection": [
+						"Value 1",
+						"SetValue",
+						{
+							"ref": "e09fcfc332adedbb",
+							"value": { "type": "int32", "value": 3 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c8be8cc21d0fa32",
+				{
+					"RemoveEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "7d381081f47cc97d",
+							"value": { "type": "int32", "value": 2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c8be8cc21d0fa32",
+				{
+					"AddEventConnection": [
+						"Value 2",
+						"SetValue",
+						{
+							"ref": "7d381081f47cc97d",
+							"value": { "type": "int32", "value": 3 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
