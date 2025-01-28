@@ -236,7 +236,7 @@
 						"SetValue",
 						{
 							"ref": "f7e6d740a6b1182f",
-							"value": { "type": "int32", "value": 3 }
+							"value": { "type": "int32", "value": 1 }
 						}
 					]
 				}
@@ -266,7 +266,7 @@
 						"SetValue",
 						{
 							"ref": "c3e752e0f5217361",
-							"value": { "type": "int32", "value": 3 }
+							"value": { "type": "int32", "value": 1 }
 						}
 					]
 				}
@@ -296,7 +296,7 @@
 						"SetValue",
 						{
 							"ref": "5c23f4be472f193a",
-							"value": { "type": "int32", "value": 3 }
+							"value": { "type": "int32", "value": 1 }
 						}
 					]
 				}
@@ -326,7 +326,7 @@
 						"SetValue",
 						{
 							"ref": "a7afca785a89fd68",
-							"value": { "type": "int32", "value": 3 }
+							"value": { "type": "int32", "value": 1 }
 						}
 					]
 				}

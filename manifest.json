@@ -13,7 +13,7 @@
             "contentFolders": ["LevelupAnytime"]
         }, {
             "name": "Non-target suspects won't be marked in instinct\n非目标嫌疑人不会被直觉标记",
-            "tooltip": " ",
+            "tooltip": "This option breaks objective related to suspects. But you can remove the related objectives below.\n该选项会破坏嫌疑人相关声望挑战，但你可以在下方移除相关挑战",
             "type": "checkbox",
             "contentFolders": ["MarkedLeader"]
         }, {
@@ -36,6 +36,16 @@
             "tooltip": " ",
             "type": "checkbox",
             "contentFolders": ["NeverReset"]
+        }, {
+            "name": "Missions can start without capacity restrictions \n任务可以在装备超重时开始",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Exit/Capacity"]
+        }, {
+            "name": "Missions can start without the tutorial done \n任务可以无视教程直接开始",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Exit/Tutorial"]
         }, {
             "name": "Remove prestige objective Silent Assassin \n移除声望挑战沉默刺客",
             "tooltip": " ",
