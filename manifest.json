@@ -295,7 +295,7 @@
             "name": "2",
             "group": "Amount of suppliers\n补给商数量",
             "type": "select",
-            "contentFolders": ["MaxSuppliers"]
+            "contentFolders": ["Supplier"]
         }, {
             "name": "Default\n默认数量",
             "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
