@@ -37,6 +37,186 @@
             "type": "checkbox",
             "contentFolders": ["NeverReset"]
         }, {
+            "name": "Remove prestige objective Silent Assassin \n移除声望挑战沉默刺客",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/101"]
+        }, {
+            "name": "Remove prestige objective Melee Kill - Epic \n移除声望挑战近战击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/102"]
+        }, {
+            "name": "Remove prestige objective Sniper Kill - Epic \n移除声望挑战狙击步枪击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/103"]
+        }, {
+            "name": "Remove prestige objective Shotgun Kill - Epic \n移除声望挑战霰弹枪击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/104"]
+        }, {
+            "name": "Remove prestige objective SMG Kill - Epic \n移除声望挑战冲锋枪击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/105"]
+        }, {
+            "name": "Remove prestige objective Silenced Pistol Kill - Epic \n移除声望挑战消音手枪击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/106"]
+        }, {
+            "name": "Remove prestige objective Unsilenced Pistol Kill - Epic \n移除声望挑战未消音手枪击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/107"]
+        }, {
+            "name": "Remove prestige objective Assault Rifle Kill - Epic \n移除声望挑战突击步枪击杀-史诗",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/108"]
+        }, {
+            "name": "Remove prestige objective Headshot Kill - Legendary \n移除声望挑战爆头击杀-传奇",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/109"]
+        }, {
+            "name": "Remove prestige objective Icepick Kill \n移除声望挑战碎冰锥击杀",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/110"]
+        }, {
+            "name": "Remove prestige objective Katana Kill \n移除声望挑战武士刀击杀",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/111"]
+        }, {
+            "name": "Remove prestige objective Shuriken Kill \n移除声望挑战飞镖击杀",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/112"]
+        }, {
+            "name": "Remove prestige objective Axe Kill \n移除声望挑战斧子击杀",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/113"]
+        }, {
+            "name": "Remove prestige objective Knife Kill \n移除声望挑战刀具击杀",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/114"]
+        }, {
+            "name": "Remove prestige objective Silent Assassin - Suit Only \n移除声望挑战沉默刺客-只穿西装",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/115"]
+        }, {
+            "name": "Remove prestige objective Silent Assassin - No Firearms \n移除声望挑战沉默刺客-无枪械",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/116"]
+        }, {
+            "name": "Remove prestige objective Timed - Get Disguises \n移除声望挑战限时-乔装打扮",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/117"]
+        }, {
+            "name": "Remove prestige objective Timed - Hide and Seek \n移除声望挑战限时-捉迷藏",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/118"]
+        }, {
+            "name": "Remove prestige objective Timed - Time Trial \n移除声望挑战限时-计时挑战",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/119"]
+        }, {
+            "name": "Remove prestige objective Timed - Silent Takedown \n移除声望挑战限时-无声击倒",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/120"]
+        }, {
+            "name": "Remove prestige objective Collateral Kill - Firearms \n移除声望挑战附带击杀-枪械",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/121"]
+        }, {
+            "name": "Remove prestige objective Collateral Kill - Accident \n移除声望挑战附带击杀-事故",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/122"]
+        }, {
+            "name": "Remove prestige objective Collateral Kill - Explosion \n移除声望挑战附带击杀-爆炸",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/123"]
+        }, {
+            "name": "Remove prestige objective Shoot Target into Water \n移除声望挑战落水下石",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/124"]
+        }, {
+            "name": "Remove prestige objective Pacify - Baseball Bat \n移除声望挑战制伏目标-棒球棍",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/125"]
+        }, {
+            "name": "Remove prestige objective Timed - Pacify Suspects \n移除声望挑战限时-制伏嫌疑人",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/126"]
+        }, {
+            "name": "Remove prestige objective Eliminate Leader - Heading for a Meeting \n移除声望挑战消灭领袖-赴约中途",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/127"]
+        }, {
+            "name": "Remove prestige objective Eliminate Leader - During Tell \n移除声望挑战消灭领袖-显露特征",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/128"]
+        }, {
+            "name": "Remove prestige objective Eliminate Leader - Escaping \n移除声望挑战消灭领袖-逃亡",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/129"]
+        }, {
+            "name": "Remove prestige objective Pacify Suspects - Silent \n移除声望挑战制伏嫌疑人-无声",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/130"]
+        }, {
+            "name": "Remove prestige objective Eliminate Leader - Oil or Water Canister Trap \n移除声望挑战消灭领袖-油罐/水罐陷阱",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/131"]
+        }, {
+            "name": "Remove prestige objective Neutralize an Assassin \n移除声望挑战解决刺客",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/132"]
+        }, {
+            "name": "Remove prestige objective Neutralize a lookout \n移除声望挑战解决哨兵",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/133"]
+        }, {
+            "name": "Remove prestige objective Open Safe - Explosive \n移除声望挑战打开保险箱-炸药",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/134"]
+        }, {
+            "name": "Remove prestige objective Arrange Meeting \n移除声望挑战安排会面",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/135"]
+        }, {
+            "name": "Remove prestige objective Perfect Run \n移除声望挑战完美行动",
+            "tooltip": " ",
+            "type": "checkbox",
+            "contentFolders": ["Prestige/136"]
+        }, {
             "name": "Default\n默认数量",
             "group": "Amount of alerted territories\n警戒的地点数量",
             "type": "select",

@@ -1,0 +1,278 @@
+{
+	"tempHash": "00D2255195F8E5C6",
+	"tbluHash": "008BCA0C384592FF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1a029cfb6fe05b78",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "29b64020f77bda46",
+									"externalScene": null,
+									"exposedEntity": "RandomSelectorEntityChoice"
+								}
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "9b97127ea6e1ae87",
+				"name": "Notes",
+				"text": "Silent Assassin 沉默刺客"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "e3f800bc9c7a263f",
+				"name": "Notes",
+				"text": "Melee Kill - Epic 近战击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "3b02668960a3a4f8",
+				"name": "Notes",
+				"text": "Sniper Kill - Epic 狙击步枪击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "ff0235162a39b068",
+				"name": "Notes",
+				"text": "Shotgun Kill - Epic 霰弹枪击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "8be3189041b605a1",
+				"name": "Notes",
+				"text": "Sub Machine Gun Kill - Epic 冲锋枪击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "f239d77121d109dc",
+				"name": "Notes",
+				"text": "Silenced Pistol Kill - Epic 消音手枪击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "bbc2e5d5ee2b5f93",
+				"name": "Notes",
+				"text": "Unsilenced Pistol Kill - Epic 未消音手枪击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "19974dc3351a3f58",
+				"name": "Notes",
+				"text": "Assault Rifle Kill - Epic 突击步枪击杀-史诗"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "29b64020f77bda46",
+				"name": "Notes",
+				"text": "Headshot Kill - Legendary 爆头击杀-传奇"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "924e9edceccb053e",
+				"name": "Notes",
+				"text": "Icepick Kill 碎冰锥击杀"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "43aeef70d54f7e9d",
+				"name": "Notes",
+				"text": "Katana Kill 武士刀击杀"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "076581a5383136bb",
+				"name": "Notes",
+				"text": "Shuriken Kill 飞镖击杀"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cb2812589bac9e88",
+				"name": "Notes",
+				"text": "Axe Kill 斧子击杀"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "e6a60953ebf17fc6",
+				"name": "Notes",
+				"text": "Knife Kill 刀具击杀"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "6c9e057bf1722e55",
+				"name": "Notes",
+				"text": "Silent Assassin - Suit Only 沉默刺客-只穿西装"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "52c5abe4483bcd05",
+				"name": "Notes",
+				"text": "Silent Assassin - No Firearms 沉默刺客-无枪械"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "0d1c293eeae33cf3",
+				"name": "Notes",
+				"text": "Timed - Get Disguises 限时-乔装打扮"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "51aabf81a790fe1d",
+				"name": "Notes",
+				"text": "Timed - Hide and Seek 限时-捉迷藏"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "127cac3fcc421b01",
+				"name": "Notes",
+				"text": "Timed - Time Trial 限时-计时挑战"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "50fba0929ef004b4",
+				"name": "Notes",
+				"text": "Timed - Silent Takedown 限时-无声击倒"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "64b20bff335772db",
+				"name": "Notes",
+				"text": "Collateral Kill - Firearms 附带击杀-枪械"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "ceac0e17f2876c58",
+				"name": "Notes",
+				"text": "Collateral Kill - Accident 附带击杀-事故"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "84c8d9ae802103f6",
+				"name": "Notes",
+				"text": "Collateral Kill - Explosion 附带击杀-爆炸"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "51607fd0a9b00a19",
+				"name": "Notes",
+				"text": "Shoot Target into Water 落水下石"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "fd261f342e61afd9",
+				"name": "Notes",
+				"text": "Pacify - Baseball Bat 制伏目标-棒球棍"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "02b3da6037391e5c",
+				"name": "Notes",
+				"text": "Timed - Pacify Suspects 限时-制伏嫌疑人"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "a8e34ea0af2245b8",
+				"name": "Notes",
+				"text": "Eliminate Leader - Heading for a Meeting 消灭领袖-赴约中途"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "577028b6c5a23080",
+				"name": "Notes",
+				"text": "Eliminate Leader - During Tell 消灭领袖-显露特征"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "9ae96239ae91344d",
+				"name": "Notes",
+				"text": "Eliminate Leader - Escaping 消灭领袖-逃亡"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "e94f3aa849f9b76a",
+				"name": "Notes",
+				"text": "Pacify Suspects - Silent 制伏嫌疑人-无声"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "090cf5683f1781a7",
+				"name": "Notes",
+				"text": "Eliminate Leader - Oil or Water Canister Trap  消灭领袖-油罐/水罐陷阱"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "58a46205bc0da5df",
+				"name": "Notes",
+				"text": "Neutralize an Assassin 解决刺客"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "8a31b1be4e250847",
+				"name": "Notes",
+				"text": "Neutralize a lookout 解决哨兵"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "7f5805c1f5644663",
+				"name": "Notes",
+				"text": "Open Safe - Explosive 打开保险箱-炸药"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "57c047415a7dbd37",
+				"name": "Notes",
+				"text": "Arrange Meeting 安排会面"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "f3917c0e5b1f94d8",
+				"name": "Notes",
+				"text": "Perfect Run 完美行动"
+			}
+		}
+	],
+	"patchVersion": 6
+}
