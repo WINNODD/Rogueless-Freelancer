@@ -1,0 +1,19 @@
+{
+	"tempHash": "00646D156000C930",
+	"tbluHash": "00BB28E7E72DD1C1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e3ffa47544180515",
+				{ "RemovePropertyByName": "m_rChannelToken" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5b314bd28efb31c1",
+				{ "RemovePropertyByName": "m_rChannelToken" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

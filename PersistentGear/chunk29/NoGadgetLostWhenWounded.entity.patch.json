@@ -10,6 +10,29 @@
 		},
 		{
 			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"EffectsStart",
+						"SetFalse"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"AddEventConnection": [
+						"EffectsStart",
+						"In",
+						"0ceaa7879182287e"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"fcadba6d99c6bbbf",
 				{ "RemovePropertyByName": "m_sPath" }
 			]

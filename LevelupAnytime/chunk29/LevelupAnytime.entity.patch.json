@@ -6,31 +6,12 @@
 			"SubEntityOperation": [
 				"8b4a96744624212e",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": 92.21514767695776
-							},
-							"position": {
-								"x": 41.20574951171875,
-								"y": -155.69740295410156,
-								"z": -19.0
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"8b4a96744624212e",
-				{
 					"PatchArrayPropertyValue": [
 						"canPrestige",
-						[{ "RemoveItemByValue": "b9b3c3f54e904c3b" }]
+						[
+							{ "RemoveItemByValue": "b9b3c3f54e904c3b" },
+							{ "AddItem": "cafe9d71ef0500a8" }
+						]
 					]
 				}
 			]
@@ -55,6 +36,24 @@
 						"In",
 						"0ceaa7879182287e"
 					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9d71ef0500a8",
+				{
+					"parent": "8b4a96744624212e",
+					"name": "AlwaysTrue",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true },
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						}
+					}
 				}
 			]
 		}
