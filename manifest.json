@@ -1,536 +1,839 @@
 {
-    "id": "WINNODD.EGCheats_CN",
-    "name": "自由职业者修改器",
-    "updateCheck": "https://raw.githubusercontent.com/WINNODD/updater-comfy-safehouse-expansion/refs/heads/main/updater-rogueless-freelancer.json",
+	"id": "WINNODD.EGCheats",
+	"name": "Rogueless Freelancer\n自由人修改器",
+	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-rogueless-freelancer.json",
 	"description": "有疑问请务必将鼠标停留至选项上查看功能详情，部分修改需要开启新战役才会应用。",
-    "authors": ["WINNODD"],
-    "frameworkVersion": "2.0.0",
-    "version": "2.0.0",
-    "options": [{
-            "name": "Prestige levels can be upgraded anytime\n声望等级可以随时升级",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["LevelupAnytime"]
-        }, {
-            "name": "Non-target suspects won't be marked in instinct\n非目标嫌疑人不会被直觉标记",
-            "tooltip": "This option breaks objective related to suspects. But you can remove the related objectives below.\n该选项会破坏嫌疑人相关声望挑战，但你可以在下方移除相关挑战",
-            "type": "checkbox",
-            "contentFolders": ["MarkedLeader"]
-        }, {
-            "name": "Failing territories won't alert other territories\n任务失败不触发其它地点警戒",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Alerted/NeverAlert"]
-        }, {
-            "name": "Always earn a million when checking stocks\n每次炒股必赚十万",
-            "tooltip": "Level up your mastery if you don't know what this is\n不知道这是什么请推精通",
-            "type": "checkbox",
-            "contentFolders": ["EasyMerces"]
-        }, {
-            "name": "Weapon in safehouse never vanish by itself\n安全屋武器不会自己消失",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["PersistentGear"]
-        }, {
-            "name": "Campaigns only reset when aborting instead of failing\n战役只在放弃而不是失败时重置",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["NeverReset"]
-        }, {
-            "name": "Missions can start without capacity restrictions \n任务可以在装备超重时开始",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Exit/Capacity"]
-        }, {
-            "name": "Missions can start without the tutorial done \n任务可以无视教程直接开始",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Exit/Tutorial"]
-        }, {
-            "name": "Remove prestige objective Silent Assassin \n移除声望挑战沉默刺客",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/101"]
-        }, {
-            "name": "Remove prestige objective Melee Kill - Epic \n移除声望挑战近战击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/102"]
-        }, {
-            "name": "Remove prestige objective Sniper Kill - Epic \n移除声望挑战狙击步枪击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/103"]
-        }, {
-            "name": "Remove prestige objective Shotgun Kill - Epic \n移除声望挑战霰弹枪击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/104"]
-        }, {
-            "name": "Remove prestige objective SMG Kill - Epic \n移除声望挑战冲锋枪击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/105"]
-        }, {
-            "name": "Remove prestige objective Silenced Pistol Kill - Epic \n移除声望挑战消音手枪击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/106"]
-        }, {
-            "name": "Remove prestige objective Unsilenced Pistol Kill - Epic \n移除声望挑战未消音手枪击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/107"]
-        }, {
-            "name": "Remove prestige objective Assault Rifle Kill - Epic \n移除声望挑战突击步枪击杀-史诗",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/108"]
-        }, {
-            "name": "Remove prestige objective Headshot Kill - Legendary \n移除声望挑战爆头击杀-传奇",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/109"]
-        }, {
-            "name": "Remove prestige objective Icepick Kill \n移除声望挑战碎冰锥击杀",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/110"]
-        }, {
-            "name": "Remove prestige objective Katana Kill \n移除声望挑战武士刀击杀",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/111"]
-        }, {
-            "name": "Remove prestige objective Shuriken Kill \n移除声望挑战飞镖击杀",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/112"]
-        }, {
-            "name": "Remove prestige objective Axe Kill \n移除声望挑战斧子击杀",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/113"]
-        }, {
-            "name": "Remove prestige objective Knife Kill \n移除声望挑战刀具击杀",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/114"]
-        }, {
-            "name": "Remove prestige objective Silent Assassin - Suit Only \n移除声望挑战沉默刺客-只穿西装",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/115"]
-        }, {
-            "name": "Remove prestige objective Silent Assassin - No Firearms \n移除声望挑战沉默刺客-无枪械",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/116"]
-        }, {
-            "name": "Remove prestige objective Timed - Get Disguises \n移除声望挑战限时-乔装打扮",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/117"]
-        }, {
-            "name": "Remove prestige objective Timed - Hide and Seek \n移除声望挑战限时-捉迷藏",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/118"]
-        }, {
-            "name": "Remove prestige objective Timed - Time Trial \n移除声望挑战限时-计时挑战",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/119"]
-        }, {
-            "name": "Remove prestige objective Timed - Silent Takedown \n移除声望挑战限时-无声击倒",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/120"]
-        }, {
-            "name": "Remove prestige objective Collateral Kill - Firearms \n移除声望挑战附带击杀-枪械",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/121"]
-        }, {
-            "name": "Remove prestige objective Collateral Kill - Accident \n移除声望挑战附带击杀-事故",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/122"]
-        }, {
-            "name": "Remove prestige objective Collateral Kill - Explosion \n移除声望挑战附带击杀-爆炸",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/123"]
-        }, {
-            "name": "Remove prestige objective Shoot Target into Water \n移除声望挑战落水下石",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/124"]
-        }, {
-            "name": "Remove prestige objective Pacify - Baseball Bat \n移除声望挑战制伏目标-棒球棍",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/125"]
-        }, {
-            "name": "Remove prestige objective Timed - Pacify Suspects \n移除声望挑战限时-制伏嫌疑人",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/126"]
-        }, {
-            "name": "Remove prestige objective Eliminate Leader - Heading for a Meeting \n移除声望挑战消灭领袖-赴约中途",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/127"]
-        }, {
-            "name": "Remove prestige objective Eliminate Leader - During Tell \n移除声望挑战消灭领袖-显露特征",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/128"]
-        }, {
-            "name": "Remove prestige objective Eliminate Leader - Escaping \n移除声望挑战消灭领袖-逃亡",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/129"]
-        }, {
-            "name": "Remove prestige objective Pacify Suspects - Silent \n移除声望挑战制伏嫌疑人-无声",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/130"]
-        }, {
-            "name": "Remove prestige objective Eliminate Leader - Oil or Water Canister Trap \n移除声望挑战消灭领袖-油罐/水罐陷阱",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/131"]
-        }, {
-            "name": "Remove prestige objective Neutralize an Assassin \n移除声望挑战解决刺客",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/132"]
-        }, {
-            "name": "Remove prestige objective Neutralize a lookout \n移除声望挑战解决哨兵",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/133"]
-        }, {
-            "name": "Remove prestige objective Open Safe - Explosive \n移除声望挑战打开保险箱-炸药",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/134"]
-        }, {
-            "name": "Remove prestige objective Arrange Meeting \n移除声望挑战安排会面",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/135"]
-        }, {
-            "name": "Remove prestige objective Perfect Run \n移除声望挑战完美行动",
-            "tooltip": " ",
-            "type": "checkbox",
-            "contentFolders": ["Prestige/136"]
-        }, {
-            "name": "Default\n默认数量",
-            "group": "Amount of alerted territories\n警戒的地点数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "0",
-            "group": "Amount of alerted territories\n警戒的地点数量",
-            "type": "select",
-            "contentFolders": ["Alerted/ZeroAlerted"]
-        }, {
-            "name": "All",
-            "group": "Amount of alerted territories\n警戒的地点数量",
-            "type": "select",
-            "contentFolders": ["Alerted/AllAlerted"]
-        }, {
-            "name": "Same as non-hardcore mode",
-            "group": "Amount of alerted territories\n警戒的地点数量",
-            "type": "select",
-            "contentFolders": ["Alerted/RegularAlerted"]
-        }, {
-            "name": "Default\n默认数量",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "1",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/1"]
-        }, {
-            "name": "2",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/2"]
-        }, {
-            "name": "3",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/3"]
-        }, {
-            "name": "4",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/4"]
-        }, {
-            "name": "5",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/5"]
-        }, {
-            "name": "6",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/6"]
-        }, {
-            "name": "7",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/7"]
-        }, {
-            "name": "8",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/8"]
-        }, {
-            "name": "9",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/9"]
-        }, {
-            "name": "10",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/10"]
-        }, {
-            "name": "11",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/11"]
-        }, {
-            "name": "12",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/12"]
-        }, {
-            "name": "13",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/13"]
-        }, {
-            "name": "14",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/14"]
-        }, {
-            "name": "15",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/15"]
-        }, {
-            "name": "16",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/16"]
-        }, {
-            "name": "17",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/17"]
-        }, {
-            "name": "18",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/18"]
-        }, {
-            "name": "19",
-            "group": "Amount of territories in one campaign\n单次战役的地点数量",
-            "type": "select",
-            "contentFolders": ["Territory/19"]
-        }, {
-            "name": "Default\n默认数量",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "1",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/1"]
-        }, {
-            "name": "2",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/2"]
-        }, {
-            "name": "3",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/3"]
-        }, {
-            "name": "4",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/4"]
-        }, {
-            "name": "5",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/5"]
-        }, {
-            "name": "6",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/6"]
-        }, {
-            "name": "7",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/7"]
-        }, {
-            "name": "8",
-            "group": "Amount of safes\n保险箱数量",
-            "type": "select",
-            "contentFolders": ["Safes/8"]
-        }, {
-            "name": "Default\n默认数量",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "1",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/1"]
-        }, {
-            "name": "2",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/2"]
-        }, {
-            "name": "3",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/3"]
-        }, {
-            "name": "4",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/4"]
-        }, {
-            "name": "5",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/5"]
-        }, {
-            "name": "6",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/6"]
-        }, {
-            "name": "7",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/7"]
-        }, {
-            "name": "8",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/8"]
-        }, {
-            "name": "9",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/9"]
-        }, {
-            "name": "10",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/10"]
-        }, {
-            "name": "11",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/11"]
-        }, {
-            "name": "12",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/12"]
-        }, {
-            "name": "13",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/13"]
-        }, {
-            "name": "14",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/14"]
-        }, {
-            "name": "15",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/15"]
-        }, {
-            "name": "16",
-            "group": "Amount of supply crates\n补给箱数量",
-            "type": "select",
-            "contentFolders": ["Stashes/16"]
-        }, {
-            "name": "1",
-            "group": "Amount of suppliers\n补给商数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "2",
-            "group": "Amount of suppliers\n补给商数量",
-            "type": "select",
-            "contentFolders": ["Supplier"]
-        }, {
-            "name": "Default\n默认数量",
-            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "1",
-            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
-            "type": "select",
-            "contentFolders": ["Target/1"]
-        }, {
-            "name": "2",
-            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
-            "type": "select",
-            "contentFolders": ["Target/2"]
-        }, {
-            "name": "3",
-            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
-            "type": "select",
-            "contentFolders": ["Target/3"]
-        }, {
-            "name": "4",
-            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
-            "type": "select",
-            "contentFolders": ["Target/4"]
-        }, {
-            "name": "5",
-            "group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
-            "type": "select",
-            "contentFolders": ["Target/5"]
-        }, {
-            "name": "Default\n默认数量",
-            "group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
-            "type": "select",
-            "enabledByDefault": true
-        }, {
-            "name": "1",
-            "group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
-            "type": "select",
-            "contentFolders": ["Suspect/1"]
-        }, {
-            "name": "12",
-            "group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
-            "type": "select",
-            "contentFolders": ["Suspect/12"]
-        }
-    ]
+	"authors": [
+		"WINNODD"
+	],
+	"frameworkVersion": "2.33.23",
+	"version": "2.0.0",
+	"options": [
+		{
+			"name": "Prestige levels can be upgraded anytime\n声望等级可以随时升级",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"LevelupAnytime"
+			]
+		},
+		{
+			"name": "Non-target suspects won't be marked in instinct\n非目标嫌疑人不会被直觉标记",
+			"tooltip": "This option breaks objective related to suspects. But you can remove the related objectives below.\n该选项会破坏嫌疑人相关声望挑战，但你可以在下方移除相关挑战",
+			"type": "checkbox",
+			"contentFolders": [
+				"MarkedLeader"
+			]
+		},
+		{
+			"name": "Failing territories won't alert other territories\n任务失败不触发其它地点警戒",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Alerted/NeverAlert"
+			]
+		},
+		{
+			"name": "Always earn a million when checking stocks\n每次炒股必赚十万",
+			"tooltip": "Level up your mastery if you don't know what this is\n不知道这是什么请推精通",
+			"type": "checkbox",
+			"contentFolders": [
+				"EasyMerces"
+			]
+		},
+		{
+			"name": "Weapon in safehouse never vanish by itself\n安全屋武器不会自己消失",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"PersistentGear"
+			]
+		},
+		{
+			"name": "Campaigns only reset when aborting instead of failing\n战役只在放弃而不是失败时重置",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"NeverReset"
+			]
+		},
+		{
+			"name": "Missions can start without capacity restrictions \n任务可以在装备超重时开始",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Exit/Capacity"
+			]
+		},
+		{
+			"name": "Missions can start without the tutorial done \n任务可以无视教程直接开始",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Exit/Tutorial"
+			]
+		},
+		{
+			"name": "Remove prestige objective Silent Assassin \n移除声望挑战沉默刺客",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/101"
+			]
+		},
+		{
+			"name": "Remove prestige objective Melee Kill - Epic \n移除声望挑战近战击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/102"
+			]
+		},
+		{
+			"name": "Remove prestige objective Sniper Kill - Epic \n移除声望挑战狙击步枪击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/103"
+			]
+		},
+		{
+			"name": "Remove prestige objective Shotgun Kill - Epic \n移除声望挑战霰弹枪击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/104"
+			]
+		},
+		{
+			"name": "Remove prestige objective SMG Kill - Epic \n移除声望挑战冲锋枪击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/105"
+			]
+		},
+		{
+			"name": "Remove prestige objective Silenced Pistol Kill - Epic \n移除声望挑战消音手枪击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/106"
+			]
+		},
+		{
+			"name": "Remove prestige objective Unsilenced Pistol Kill - Epic \n移除声望挑战未消音手枪击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/107"
+			]
+		},
+		{
+			"name": "Remove prestige objective Assault Rifle Kill - Epic \n移除声望挑战突击步枪击杀-史诗",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/108"
+			]
+		},
+		{
+			"name": "Remove prestige objective Headshot Kill - Legendary \n移除声望挑战爆头击杀-传奇",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/109"
+			]
+		},
+		{
+			"name": "Remove prestige objective Icepick Kill \n移除声望挑战碎冰锥击杀",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/110"
+			]
+		},
+		{
+			"name": "Remove prestige objective Katana Kill \n移除声望挑战武士刀击杀",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/111"
+			]
+		},
+		{
+			"name": "Remove prestige objective Shuriken Kill \n移除声望挑战飞镖击杀",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/112"
+			]
+		},
+		{
+			"name": "Remove prestige objective Axe Kill \n移除声望挑战斧子击杀",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/113"
+			]
+		},
+		{
+			"name": "Remove prestige objective Knife Kill \n移除声望挑战刀具击杀",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/114"
+			]
+		},
+		{
+			"name": "Remove prestige objective Silent Assassin - Suit Only \n移除声望挑战沉默刺客-只穿西装",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/115"
+			]
+		},
+		{
+			"name": "Remove prestige objective Silent Assassin - No Firearms \n移除声望挑战沉默刺客-无枪械",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/116"
+			]
+		},
+		{
+			"name": "Remove prestige objective Timed - Get Disguises \n移除声望挑战限时-乔装打扮",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/117"
+			]
+		},
+		{
+			"name": "Remove prestige objective Timed - Hide and Seek \n移除声望挑战限时-捉迷藏",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/118"
+			]
+		},
+		{
+			"name": "Remove prestige objective Timed - Time Trial \n移除声望挑战限时-计时挑战",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/119"
+			]
+		},
+		{
+			"name": "Remove prestige objective Timed - Silent Takedown \n移除声望挑战限时-无声击倒",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/120"
+			]
+		},
+		{
+			"name": "Remove prestige objective Collateral Kill - Firearms \n移除声望挑战附带击杀-枪械",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/121"
+			]
+		},
+		{
+			"name": "Remove prestige objective Collateral Kill - Accident \n移除声望挑战附带击杀-事故",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/122"
+			]
+		},
+		{
+			"name": "Remove prestige objective Collateral Kill - Explosion \n移除声望挑战附带击杀-爆炸",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/123"
+			]
+		},
+		{
+			"name": "Remove prestige objective Shoot Target into Water \n移除声望挑战落水下石",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/124"
+			]
+		},
+		{
+			"name": "Remove prestige objective Pacify - Baseball Bat \n移除声望挑战制伏目标-棒球棍",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/125"
+			]
+		},
+		{
+			"name": "Remove prestige objective Timed - Pacify Suspects \n移除声望挑战限时-制伏嫌疑人",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/126"
+			]
+		},
+		{
+			"name": "Remove prestige objective Eliminate Leader - Heading for a Meeting \n移除声望挑战消灭领袖-赴约中途",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/127"
+			]
+		},
+		{
+			"name": "Remove prestige objective Eliminate Leader - During Tell \n移除声望挑战消灭领袖-显露特征",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/128"
+			]
+		},
+		{
+			"name": "Remove prestige objective Eliminate Leader - Escaping \n移除声望挑战消灭领袖-逃亡",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/129"
+			]
+		},
+		{
+			"name": "Remove prestige objective Pacify Suspects - Silent \n移除声望挑战制伏嫌疑人-无声",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/130"
+			]
+		},
+		{
+			"name": "Remove prestige objective Eliminate Leader - Oil or Water Canister Trap \n移除声望挑战消灭领袖-油罐/水罐陷阱",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/131"
+			]
+		},
+		{
+			"name": "Remove prestige objective Neutralize an Assassin \n移除声望挑战解决刺客",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/132"
+			]
+		},
+		{
+			"name": "Remove prestige objective Neutralize a lookout \n移除声望挑战解决哨兵",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/133"
+			]
+		},
+		{
+			"name": "Remove prestige objective Open Safe - Explosive \n移除声望挑战打开保险箱-炸药",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/134"
+			]
+		},
+		{
+			"name": "Remove prestige objective Arrange Meeting \n移除声望挑战安排会面",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/135"
+			]
+		},
+		{
+			"name": "Remove prestige objective Perfect Run \n移除声望挑战完美行动",
+			"tooltip": " ",
+			"type": "checkbox",
+			"contentFolders": [
+				"Prestige/136"
+			]
+		},
+		{
+			"name": "Default\n默认数量",
+			"group": "Amount of alerted territories\n警戒的地点数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "0",
+			"group": "Amount of alerted territories\n警戒的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Alerted/ZeroAlerted"
+			]
+		},
+		{
+			"name": "All",
+			"group": "Amount of alerted territories\n警戒的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Alerted/AllAlerted"
+			]
+		},
+		{
+			"name": "Same as non-hardcore mode",
+			"group": "Amount of alerted territories\n警戒的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Alerted/RegularAlerted"
+			]
+		},
+		{
+			"name": "Default\n默认数量",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "1",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/1"
+			]
+		},
+		{
+			"name": "2",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/2"
+			]
+		},
+		{
+			"name": "3",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/3"
+			]
+		},
+		{
+			"name": "4",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/4"
+			]
+		},
+		{
+			"name": "5",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/5"
+			]
+		},
+		{
+			"name": "6",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/6"
+			]
+		},
+		{
+			"name": "7",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/7"
+			]
+		},
+		{
+			"name": "8",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/8"
+			]
+		},
+		{
+			"name": "9",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/9"
+			]
+		},
+		{
+			"name": "10",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/10"
+			]
+		},
+		{
+			"name": "11",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/11"
+			]
+		},
+		{
+			"name": "12",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/12"
+			]
+		},
+		{
+			"name": "13",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/13"
+			]
+		},
+		{
+			"name": "14",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/14"
+			]
+		},
+		{
+			"name": "15",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/15"
+			]
+		},
+		{
+			"name": "16",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/16"
+			]
+		},
+		{
+			"name": "17",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/17"
+			]
+		},
+		{
+			"name": "18",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/18"
+			]
+		},
+		{
+			"name": "19",
+			"group": "Amount of territories in one campaign\n单次战役的地点数量",
+			"type": "select",
+			"contentFolders": [
+				"Territory/19"
+			]
+		},
+		{
+			"name": "Default\n默认数量",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "1",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/1"
+			]
+		},
+		{
+			"name": "2",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/2"
+			]
+		},
+		{
+			"name": "3",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/3"
+			]
+		},
+		{
+			"name": "4",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/4"
+			]
+		},
+		{
+			"name": "5",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/5"
+			]
+		},
+		{
+			"name": "6",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/6"
+			]
+		},
+		{
+			"name": "7",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/7"
+			]
+		},
+		{
+			"name": "8",
+			"group": "Amount of safes\n保险箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Safes/8"
+			]
+		},
+		{
+			"name": "Default\n默认数量",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "1",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/1"
+			]
+		},
+		{
+			"name": "2",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/2"
+			]
+		},
+		{
+			"name": "3",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/3"
+			]
+		},
+		{
+			"name": "4",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/4"
+			]
+		},
+		{
+			"name": "5",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/5"
+			]
+		},
+		{
+			"name": "6",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/6"
+			]
+		},
+		{
+			"name": "7",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/7"
+			]
+		},
+		{
+			"name": "8",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/8"
+			]
+		},
+		{
+			"name": "9",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/9"
+			]
+		},
+		{
+			"name": "10",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/10"
+			]
+		},
+		{
+			"name": "11",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/11"
+			]
+		},
+		{
+			"name": "12",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/12"
+			]
+		},
+		{
+			"name": "13",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/13"
+			]
+		},
+		{
+			"name": "14",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/14"
+			]
+		},
+		{
+			"name": "15",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/15"
+			]
+		},
+		{
+			"name": "16",
+			"group": "Amount of supply crates\n补给箱数量",
+			"type": "select",
+			"contentFolders": [
+				"Stashes/16"
+			]
+		},
+		{
+			"name": "1",
+			"group": "Amount of suppliers\n补给商数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "2",
+			"group": "Amount of suppliers\n补给商数量",
+			"type": "select",
+			"contentFolders": [
+				"Supplier"
+			]
+		},
+		{
+			"name": "Default\n默认数量",
+			"group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "1",
+			"group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
+			"type": "select",
+			"contentFolders": [
+				"Target/1"
+			]
+		},
+		{
+			"name": "2",
+			"group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
+			"type": "select",
+			"contentFolders": [
+				"Target/2"
+			]
+		},
+		{
+			"name": "3",
+			"group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
+			"type": "select",
+			"contentFolders": [
+				"Target/3"
+			]
+		},
+		{
+			"name": "4",
+			"group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
+			"type": "select",
+			"contentFolders": [
+				"Target/4"
+			]
+		},
+		{
+			"name": "5",
+			"group": "Amount of targets in Territory Takedown \n区域清剿的目标数量",
+			"type": "select",
+			"contentFolders": [
+				"Target/5"
+			]
+		},
+		{
+			"name": "Default\n默认数量",
+			"group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "1",
+			"group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
+			"type": "select",
+			"contentFolders": [
+				"Suspect/1"
+			]
+		},
+		{
+			"name": "12",
+			"group": "Amount of suspects in Showdown \n决战的嫌疑人数量",
+			"type": "select",
+			"contentFolders": [
+				"Suspect/12"
+			]
+		}
+	]
 }
