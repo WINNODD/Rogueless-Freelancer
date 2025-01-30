@@ -14,7 +14,8 @@
 			"tooltip": " ",
 			"type": "checkbox",
 			"contentFolders": [
-				"LevelupAnytime"
+				"LevelupAnytime",
+				"SharedItem"
 			]
 		},
 		{
@@ -46,7 +47,8 @@
 			"tooltip": " ",
 			"type": "checkbox",
 			"contentFolders": [
-				"PersistentGear"
+				"PersistentGear",
+				"SharedItem"
 			]
 		},
 		{
