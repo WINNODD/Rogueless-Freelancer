@@ -6,8 +6,8 @@
 	"authors": [
 		"WINNODD"
 	],
-	"frameworkVersion": "2.33.23",
-	"version": "2.0.1",
+	"frameworkVersion": "2.33.25",
+	"version": "2.0.2",
 	"options": [
 		{
 			"name": "Prestige levels can be upgraded anytime\n声望等级可以随时升级",
